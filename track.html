@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Track Your Package - Quick Trip couriers Delivery Company</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="track.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Quick Trip couriers Delivery Company</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="track.html">Track Package</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html" class="signup-btn">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+   <!-- Tracking Section -->
+   <section class="tracking-container">
+    <h2>Track Your Order</h2>
+    <input type="text" id="tracking-code" placeholder="Enter Tracking Code">
+    <button id="track-btn">Track Order</button>
+
+    <div id="tracking-result"></div>
+</section>
+  <div id="google_translate_element" class="tor">
+    
+    <p>translator</p> 
+ </div>
+ 
+ <script type="text/javascript">
+     function googleTranslateElementInit() {
+         new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+     }
+ </script>
+ 
+ <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+ 
+  <footer>
+     <!-- Leaflet.js CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    
+     
+    <p>&copy; 2025 Quick Trip couriers Delivery Company. All rights reserved.</p>
+  </footer>
+</body>
+</html>
